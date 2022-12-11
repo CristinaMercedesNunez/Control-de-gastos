@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Control de gastos</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+   
+    <h2>Control de gastos</h2>
+    <div class="container">
+      <h4></h4>
+      <h1 id="saldo">$0.00</h1>
+      <div class="container-ingresos-gastos">
+        <div>
+          <h4>ingresos</h4>
+          <p id="dinero-positivo" class="dinero positivo">+$0.00</p>
+        </div>
+        <div>
+          <h4>gastos</h4>
+          <p id="dinero-negativo" class="dinero negativo">-$0.00</p>
+        </div>
+      </div>
+      <h3>Historial</h3>
+      <ul id="list" class="list">
+      
+      </ul>
+      <h3>Añadir operación</h3>
+      <form action="" id="form">
+        <div class="form-control">
+          <label for="text">texto</label>
+          <input type="text" id="text" placeholder="Introduzca el concepto" />
+        </div>
+        <div class="form-control">
+          <label for="cantidad"
+            >cantidad <br/>
+          
+          <input
+            type="number"
+            id="amount"
+            placeholder="introduzca la cantidad"
+          />
+        </div>
+        <button class="boton">Añadir operación</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
